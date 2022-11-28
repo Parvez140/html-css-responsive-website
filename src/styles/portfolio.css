@@ -1,0 +1,14 @@
+.sectionOne {
+  padding: 50px 0;
+}
+.sectionOne__contant--text {
+  font-family: var(--font-2);
+  font-weight: 400;
+  font-size: var(--sub);
+  line-height: 125%;
+  color: var(--color-dark-100);
+}
+.sectionOne__contant--btn {
+  align-self: center;
+  margin-top: 30px;
+}

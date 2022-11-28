@@ -1,0 +1,51 @@
+body {
+  display: grid;
+  min-height: 100vh;
+}
+.hero {
+  align-self: start;
+}
+.footer-wrapper {
+  align-self: end;
+}
+.sectionOne {
+  padding-top: 20px;
+}
+.text {
+  font-family: var(--font-2);
+  font-weight: 400;
+  font-size: var(--sub);
+  line-height: 125%;
+  color: var(--color-dark-100);
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+input,
+textarea {
+  padding: 10px 20px;
+  margin: 8px 0;
+  border-radius: 3px;
+  background-color: #eeeeee;
+  border: 1.5px solid #212529;
+}
+.submit-btn {
+  margin-top: 10px;
+}
+label {
+  font-family: var(--font-2);
+  font-size: var(--sub);
+}
+@media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .sectionTwo__left {
+    order: 1;
+  }
+  .sectionTwo__right {
+    order: 0;
+  }
+}
